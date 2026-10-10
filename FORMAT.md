@@ -1,0 +1,1 @@
+CSV: permit,asset,start-hours,end-hours,HOT|COLD|ENERGIZED,gas-test-flag,authorization-flag. Half-open time intervals. Shared asset names represent isolation boundaries; the tool audits evidence without issuing permits.
