@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "repository": "brunnojob/csharp-offshore-permit-conflict-audit",
-  "source_commit": "ca367d5c61983a84f4410b82bbd9a73020d5b524",
-  "generated_at": "2026-10-10T02:36:44.683934+00:00",
-  "run_url": "https://github.com/brunnojob/csharp-offshore-permit-conflict-audit/actions/runs/38017592881",
+  "source_commit": "27047cde978c8a6ed32854d90e7babf09f56f35a",
+  "generated_at": "2026-10-10T02:44:58.527275+00:00",
+  "run_url": "https://github.com/brunnojob/csharp-offshore-permit-conflict-audit/actions/runs/38018083165",
   "inputs_sha256": {
     ".proof/scenarios.json": "849d080812dc45f3fd10d6de621226d9f62808f6c61c22d4387a4b6df391df26",
     "examples/input.txt": "352e114fcc36d5a53997885397c6a78be51fd1e65a3a881284bbb2c40e9f0bd5"
@@ -23,9 +23,9 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 6.923,
-      "output": "  Determining projects to restore...\n  Restored /home/runner/work/csharp-offshore-permit-conflict-audit/csharp-offshore-permit-conflict-audit/Offshore.csproj (in 83 ms).\n  Offshore -> /home/runner/work/csharp-offshore-permit-conflict-audit/csharp-offshore-permit-conflict-audit/bin/Debug/net8.0/Offshore.dll\n\nBuild succeeded.\n    0 Warning(s)\n    0 Error(s)\n\nTime Elapsed 00:00:04.14\nTests passed\n{\"Left\":\"P103\",\"Right\":\"-\",\"Reason\":\"GAS_TEST_MISSING\"}\n{\"Left\":\"P101\",\"Right\":\"P102\",\"Reason\":\"BOUNDARY_CONFLICT\"}\n",
-      "output_sha256": "2a75eeabd80e7095b818c4bdfba278fdc089dae83eb99c0037f251d87cdb73d9"
+      "seconds": 14.189,
+      "output": "  Determining projects to restore...\n  Restored /home/runner/work/csharp-offshore-permit-conflict-audit/csharp-offshore-permit-conflict-audit/Offshore.csproj (in 65 ms).\n  Offshore -> /home/runner/work/csharp-offshore-permit-conflict-audit/csharp-offshore-permit-conflict-audit/bin/Debug/net8.0/Offshore.dll\n\nBuild succeeded.\n    0 Warning(s)\n    0 Error(s)\n\nTime Elapsed 00:00:06.92\nTests passed\n{\"Left\":\"P103\",\"Right\":\"-\",\"Reason\":\"GAS_TEST_MISSING\"}\n{\"Left\":\"P101\",\"Right\":\"P102\",\"Reason\":\"BOUNDARY_CONFLICT\"}\n",
+      "output_sha256": "2715ff6cf0b1034ad1f2959916d17c506f94c067a1723b4af0cabbdf4c4c25fa"
     },
     {
       "display": true,
@@ -39,7 +39,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 0.803,
+      "seconds": 0.502,
       "output": "{\"Left\":\"P103\",\"Right\":\"-\",\"Reason\":\"GAS_TEST_MISSING\"}\n{\"Left\":\"P101\",\"Right\":\"P102\",\"Reason\":\"BOUNDARY_CONFLICT\"}\n",
       "output_sha256": "d4f417077a64feca89a0f393003a0dca02b4b36fe426b0823a81e4c2f27c420f"
     },
@@ -55,7 +55,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.753,
+      "seconds": 0.552,
       "output": "Missing input\n",
       "output_sha256": "59dde097c155045b6510b44b5d0ee86176974b3476c8b96718ac676f66134e97"
     },
@@ -71,7 +71,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.754,
+      "seconds": 0.502,
       "output": "Invalid CSV row\n",
       "output_sha256": "64aaf8a3f81772044320e6481a9fe33ac80bfdb41f6deb590512cd62c2cd30b7"
     },
@@ -88,7 +88,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.753,
+      "seconds": 0.502,
       "output": "Unsupported command arguments\n",
       "output_sha256": "a7217611e9bf4e2fd5cbbd1b8b97c5898f154b14da948e9e35008b59b8158bcd"
     },
@@ -104,7 +104,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.754,
+      "seconds": 0.502,
       "output": "Input record too large\n",
       "output_sha256": "45eb187fdae97f09b79c4bcd5c03d9b942872125e5fb5b6a83011b36f8d62333"
     }
