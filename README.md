@@ -1,5 +1,7 @@
 # csharp-offshore-permit-conflict-audit
 
+[View execution evidence](https://brunnojob.github.io/devstart-lab/proofs/csharp-offshore-permit-conflict-audit/)
+
 Detect overlapping work permits with conflicting isolation boundaries and incomplete authorization evidence.
 
 ```sh
